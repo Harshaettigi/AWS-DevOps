@@ -6,6 +6,8 @@ packages(jar, ear,war) for java based projects.
 
 ```bash
 mvn clean package
+mvn install
+mvn build
 ```
 
 ## Create Docker Image
@@ -20,12 +22,6 @@ Create docker image using Dockerfile
 
 ```docker
 docker build -t harshaettigi/spring-boot-mongo .
-```
-
-## Deploy Application Using Docker and Kubernetes 
-
-```docker-compose 
-docker-compose up -d 
 ```
 
 ## List kubernetes pods and services
